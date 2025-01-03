@@ -17,25 +17,10 @@ signupForm.addEventListener('submit', async (e) => {
     }
 });
 
-// signInWithEmailAndPassword(auth, email, password)
-// .then((userCredential) => {
-//   // Signed in
-//   const user = userCredential.user;
-//   console.log(user);
-//   showSuccess("User Login Successfully!");
-//   setTimeout(() => {
-//       window.location.href = 'index.html';
-//   }, 2000);
-// })
-// .catch((error) => {
-//   const errorMessage = error.message;
-//  showError('Login Failed: ' + errorMessage)
-// });
 
-// Cart Logic
 let cart = [];
 
-// Add to Cart
+
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', (e) => {
         const product = e.target.closest('.product');
@@ -51,7 +36,7 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
     });
 });
 
-// Update Cart UI
+
 function updateCartUI() {
     const cartCount = document.getElementById('cart-count');
     const cartItems = document.getElementById('cart-items');
