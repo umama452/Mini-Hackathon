@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #000000;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+header nav ul {
+    list-style: none;
+    color: black;
+
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: black;
+
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 30px 20px;
+    background: #b3bbbd;
+    height: 200px;
+}
+.img1{
+    display: flex;
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+}
+.doctor{
+    height: 270px;
+    width: 270px;
+    box-shadow: #b3bbbd;
+    border-radius: 5px;
+}
+.box3{
+    /* background-color: rgb(187, 187, 187); */
+    height: 320px;
+    margin: auto;
+}
+.img2{
+    display: flex;
+    position: relative;
+    bottom: 200px;
+}
+.img3{
+    position: relative;
+    left: 300px;
+    bottom: 270px;
+}
+.product-info{
+    background-color: beige;
+    height: 380px;
+    /* display: inline; */
+}
+.products{
+    display: flex;
+    background-color: beige;
+
+}
+
+
+.product-info,
+.benefits,
+.faq,
+.contact {
+
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.benefits {
+    text-align: left;
+    padding: 0;
+    background-color: beige;
+
+}
+
+.benefits p {
+    border-style: inset;
+  
+}
+.faq-item p{
+    border-style: ridge;
+    text-align: left;
+
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input,
+.contact textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.contact button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.cart {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: #fff;
+}
